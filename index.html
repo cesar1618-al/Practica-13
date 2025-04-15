@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Práctica 13 B</title>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+      <link rel="stylesheet" type="text/css" href="style.css">
+      <script type="text/javascript" src="prac13.js"></script>
+    </head> 
+ 
+  <body cz-shortcut-listen="true">
+      <header id="barraSuperior">
+          <h1>CRONÓMETRO PISTA DE CARRERAS</h1>
+      </header>
+      <div id="tiempo">
+          <h2 id="minutos">00</h2>
+          <h2> : </h2>
+          <h2 id="segundos">00</h2>
+          <h2> : </h2>
+          <h2 id="centesimas">00</h2>
+      </div>
+      <div id="botones">
+          <button id="bInicio" onclick="inicio()">Iniciar Carrera</button>
+          <button id="bSector1" onclick="sector1()" disabled="">Sector1 </button>
+          <button id="bSector2" onclick="sector2()" disabled="">Sector2 </button>
+          <button id="bSector3" onclick="sector3()" disabled="">Sector3 </button>
+          <button id="bTiempoTotal" onclick="tiempoTotal()" disabled="">Tiempo Total </button>
+          <button id="bPausa" onclick="detener()" disabled="">Pausar</button>
+          <button id="bReinicio" onclick="reiniciar()" disabled="">Reiniciar Carrera</button>
+      </div>
+      <p><div id="sector1"> </div></p>
+      <p><div id="sector2"> </div></p>
+      <p><div id="sector3"> </div></p>
+      <p><div id="tiempototal"> </div></p>
+      <footer>
+        <p>PRACTICA 13 B - Cronómetro Carrera</p>
+      </footer>
+  
+  <app-weava-root id="weava-root" class="weava" ng-version="15.2.1"></app-weava-root></body></html>

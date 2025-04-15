@@ -1,0 +1,96 @@
+html{
+    min-height: 100% ;
+    min-width: 100% ;
+    background-image: linear-gradient(aquamarine, azure);
+}
+#tiempo{
+    display: flex;
+    justify-content: center;
+}
+
+h1, h2{
+    color: azure;
+    font-family: fantasy;
+    font-size: 48px;
+    text-shadow: 1px 1px 2px dimgray;
+    text-align: center;
+    letter-spacing: 6px;
+}
+
+h2{
+    color: azure;
+    font-size: 100px;
+}
+
+#botones{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+  margin: 20px;
+  display: inline-block;
+  padding: 15px 20px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: ghostwhite;
+  background-color: mediumaquamarine;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+button:hover {background-color: cadetblue}
+
+button:active {
+  background-color: cadetblue;
+  box-shadow: 0 5px dimgray;
+    transform: translateY(4px);
+}
+
+button:disabled{
+    background-color: darkgray;
+}
+
+footer{
+    font-family: sans-serif;
+    font-size: 10px;
+    text-align: center;
+    padding: 5px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: cadetblue;
+}
+
+#tiempototal{
+    color: cadetblue;
+    text-align: center;
+    font-size: 24px;
+    margin-top: 40px;
+}
+
+#sector1{
+    color: cadetblue;
+    text-align: center;
+    font-size: 24px;
+    margin-top: 40px;
+}
+
+#sector2{
+    color: cadetblue;
+    text-align: center;
+    font-size: 24px;
+    margin-top: 40px;
+}
+
+#sector3{
+    color: cadetblue;
+    text-align: center;
+    font-size: 24px;
+    margin-top: 40px;
+}
